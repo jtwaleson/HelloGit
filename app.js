@@ -4,6 +4,7 @@ var app = express();
 
 app.configure(function () {
     app.set('port', 8080);
+    app.use(app.router);
     app.use(express.static(path.join(__dirname, 'static')));
 });
 
