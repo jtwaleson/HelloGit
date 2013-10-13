@@ -10,6 +10,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "jade": "*",
     "express": "3.x"
   }
 }
